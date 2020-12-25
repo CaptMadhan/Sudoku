@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    tools:conhint=".MainActivity">
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:id="@+id/solve_button"
+        android:onClick="solve"
+        android:layout_below="@+id/border"
+        android:layout_marginTop="30dp"
+        android:text="solve"
+        />
+    <RelativeLayout
+        android:id="@+id/border"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:gravity="center"
+        android:background="#000000">
+        <RelativeLayout
+            android:id="@+id/box1"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:background="@color/box1"
+            tools:ignore="UselessParent">
+
+        <TableLayout
+            android:id="@+id/top1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box00"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp"
+                    tools:ignore="LabelFor" />
+
+
+                <EditText
+                    android:id="@+id/box01"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box02"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box10"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box11"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box12"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box20"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box21"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box22"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/top2"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="120dp"
+        android:background="@color/box2">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <EditText
+                android:id="@+id/box03"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:autofillHints="0"
+                android:gravity="center"
+                android:inputType="number"
+                android:hint="@string/x"
+                android:textSize="15sp"
+                tools:ignore="LabelFor" />
+
+
+            <EditText
+                android:id="@+id/box04"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:autofillHints="0"
+                android:gravity="center"
+                android:inputType="number"
+                android:hint="@string/x"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/box05"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:autofillHints="0"
+                android:gravity="center"
+                android:inputType="number"
+                android:hint="@string/x"
+                android:textSize="15sp" />
+        </TableRow>
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <EditText
+                android:id="@+id/box13"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:autofillHints="0"
+                android:gravity="center"
+                android:inputType="number"
+                android:hint="@string/x"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/box14"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:autofillHints="0"
+                android:gravity="center"
+                android:inputType="number"
+                android:hint="@string/x"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/box15"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:autofillHints="0"
+                android:gravity="center"
+                android:inputType="number"
+                android:hint="@string/x"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <EditText
+                android:id="@+id/box23"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:autofillHints="0"
+                android:gravity="center"
+                android:inputType="number"
+                android:hint="@string/x"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/box24"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:autofillHints="0"
+                android:gravity="center"
+                android:hint="@string/x"
+                android:inputType="number"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/box25"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:autofillHints="0"
+                android:gravity="center"
+                android:inputType="number"
+                android:hint="@string/x"
+                android:textSize="15sp" />
+        </TableRow>
+    </TableLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/top3"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="240dp"
+        android:background="@color/box1">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box06"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp"
+                    tools:ignore="LabelFor" />
+
+
+                <EditText
+                    android:id="@+id/box07"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box08"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box16"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box17"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box18"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box26"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box27"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:hint="@string/x"
+                    android:inputType="number"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box28"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mid1"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:gravity="center"
+        android:layout_marginTop="120dp"
+        android:background="@color/box2">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box30"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp"
+                    tools:ignore="LabelFor" />
+
+
+                <EditText
+                    android:id="@+id/box31"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box32"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box40"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box41"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box42"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box50"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box51"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:hint="@string/x"
+                    android:inputType="number"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box52"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/mid2"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/box1">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box33"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp"
+                    tools:ignore="LabelFor" />
+
+
+                <EditText
+                    android:id="@+id/box34"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box35"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box43"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box44"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box45"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box53"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box54"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:hint="@string/x"
+                    android:inputType="number"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box55"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/mid3"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/box2">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box36"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp"
+                    tools:ignore="LabelFor" />
+
+
+                <EditText
+                    android:id="@+id/box37"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box38"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box46"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box47"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box48"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box56"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box57"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:hint="@string/x"
+                    android:inputType="number"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box58"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp"
+                    tools:ignore="LabelFor" />
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom1"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:gravity="center"
+        android:layout_marginTop="240dp"
+        android:background="@color/box1"
+        >
+
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box60"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp"
+                    tools:ignore="LabelFor" />
+
+
+                <EditText
+                    android:id="@+id/box61"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box62"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box70"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box71"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box72"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box80"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box81"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box82"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/bottom2"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="240dp"
+        android:background="@color/box2">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box63"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp"
+                    tools:ignore="LabelFor" />
+
+
+                <EditText
+                    android:id="@+id/box64"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box65"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box73"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box74"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box75"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box83"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box84"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:hint="@string/x"
+                    android:inputType="number"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box85"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/bottom3"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="240dp"
+        android:background="@color/box1">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box66"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp"
+                    tools:ignore="LabelFor" />
+
+
+                <EditText
+                    android:id="@+id/box67"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box68"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box76"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box77"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box78"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <EditText
+                    android:id="@+id/box86"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box87"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:hint="@string/x"
+                    android:inputType="number"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/box88"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:autofillHints="0"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:hint="@string/x"
+                    android:textSize="15sp"
+                    tools:ignore="LabelFor" />
+                    </TableRow>
+             </TableLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
