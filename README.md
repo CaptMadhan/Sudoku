@@ -1,4 +1,4 @@
-# Sudoku
+# Sudoku Solver
 Sudoku solver Android Application
 This application solves the sudoku problem by accepting number of inputs, calculates the missing values and fills the blank boxes.
 No minimum number of inputs, even if executed with 0 inputs as shown in the below screenshots.
